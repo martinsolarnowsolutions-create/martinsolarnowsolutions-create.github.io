@@ -18,6 +18,7 @@
   .box{background:#fff;border:1px solid #e3e5ea;border-radius:8px;padding:18px 22px;margin:22px 0}
   footer{border-top:1px solid #e3e5ea;margin-top:40px;padding-top:18px;color:#6b7280;font-size:13px}
   a{color:#2563eb}
+  code{background:#eef0f3;padding:1px 5px;border-radius:3px;font-size:13px}
 </style>
 </head>
 <body>
@@ -36,17 +37,16 @@
 
 <h2>Information the application accesses</h2>
 <p>Hermey requests access to Google Sheets through the Google Sheets API, using the
-<code>spreadsheets</code> scope. It uses this to read and update property market tracking
-spreadsheets belonging to the account holder who authorises it.</p>
+<code>spreadsheets</code> scope. It uses this to read and update spreadsheets belonging to the
+account holder who authorises it.</p>
 <p>The application does not request access to Gmail, Google Drive file listings, Contacts,
 Calendar, or any other Google service.</p>
 
 <h2>How that information is used</h2>
 <ul>
-  <li>To read existing rows from the account holder's own tracking spreadsheets</li>
-  <li>To add and update rows recording property listings, price guides, sale results and
-      withdrawals</li>
-  <li>To produce summaries of market activity for the account holder's own reference</li>
+  <li>To read existing rows from the account holder's own spreadsheets</li>
+  <li>To add and update rows in those same spreadsheets</li>
+  <li>To prepare summaries of their contents for the account holder's own reference</li>
 </ul>
 <p>Spreadsheet contents are processed on the account holder's own computer and are used for no
 purpose other than maintaining those spreadsheets.</p>
@@ -60,7 +60,7 @@ such server.</p>
 <h2>Storage and retention</h2>
 <p>Authorisation credentials are stored locally on the account holder's own computer, readable
 only by that user account. Working copies of spreadsheet data are held locally for the purpose
-of preparing updates and are retained only as long as needed for that purpose. Nothing is
+of preparing updates, and are retained only as long as needed for that purpose. Nothing is
 stored off that machine.</p>
 
 <h2>Withdrawing access</h2>
@@ -76,8 +76,8 @@ single operator.</p>
 <p>Any change to this policy will be published on this page with a revised date above.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy can be sent to
-<a href="mailto:martin.solarnowsolutions@gmail.com">martin.solarnowsolutions@gmail.com</a>.</p>
+<p>Questions about this policy can be raised by
+<a href="https://github.com/martinsolarnowsolutions-create/martinsolarnowsolutions-create.github.io/issues">opening an issue on GitHub</a>.</p>
 
 <footer><a href="index.html">&larr; Back to Hermey</a></footer>
 
